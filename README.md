@@ -13,3 +13,11 @@ php bin/magento setup:static-content:deploy
 ```
 php bin/magento indexer:reindex
 ```
+
+## Development
+```
+bin/magento deploy:mode:show
+php bin/magento deploy:mode:set default
+php bin/magento deploy:mode:set developer
+php bin/magento deploy:mode:set production
+```
