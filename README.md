@@ -8,3 +8,8 @@ docker run -tid -p 8000:80 --privileged -e "container=docker" -v /sys/fs/cgroup:
 php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
 ```
+
+## Routine Command
+```
+php bin/magento indexer:reindex
+```
