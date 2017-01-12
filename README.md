@@ -52,3 +52,9 @@ php bin/magento i18n:collect-phrases # export lang
 php bin/magento i18n:collect-phrases -o "app/design/frontend/Magento/candy/i18n/th_TH.csv" /Applications/MAMP/htdocs/candy-web/
 php bin/magento i18n:pack en_US th_TH
 ```
+
+## frontend
+```
+php bin/magento setup:static-content:deploy -t Magento/candy -l th_TH
+grunt less:candy
+```

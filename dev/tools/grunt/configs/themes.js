@@ -46,14 +46,8 @@ module.exports = {
         name: 'Magento/candy',
         locale: 'th_TH',
         files: [
-            'app/design/frontend/Magento/blank/web/css/styles-m',
-            'app/design/frontend/Magento/blank/web/css/styles-l',
-            'app/design/frontend/Magento/blank/web/css/email',
-            'app/design/frontend/Magento/blank/web/css/email-inline',
-            'app/design/frontend/Magento/Candy/web/css/styles-m',
-            'app/design/frontend/Magento/Candy/web/css/styles-l',
-            'app/design/frontend/Magento/Candy/web/css/email',
-            'app/design/frontend/Magento/Candy/web/css/email-inline',
+            'css/styles-m',
+            'css/styles-l',
         ],
         dsl: 'less'
     },
