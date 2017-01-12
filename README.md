@@ -12,6 +12,7 @@ php bin/magento setup:static-content:deploy
 ## Routine Command
 ```
 php bin/magento indexer:reindex
+php bin/magento cache:clean
 ```
 
 ## Development
@@ -20,4 +21,12 @@ bin/magento deploy:mode:show
 php bin/magento deploy:mode:set default
 php bin/magento deploy:mode:set developer
 php bin/magento deploy:mode:set production
+```
+
+```
+npm install -g grunt-cli
+mv package.json.sample package.json
+mv Gruntfile.js.sample Gruntfile.js
+npm install
+npm update
 ```

@@ -41,6 +41,18 @@ module.exports = {
         ],
         dsl: 'less'
     },
+    candy: {
+        area: 'frontend',
+        name: 'Magento/candy',
+        locale: 'th_TH',
+        files: [
+            'css/styles-m',
+            'css/styles-l',
+            'css/email',
+            'css/email-inline'
+        ],
+        dsl: 'less'
+    },
     backend: {
         area: 'adminhtml',
         name: 'Magento/backend',
