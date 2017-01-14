@@ -66,11 +66,11 @@
 }
 
 .social-login-title .create-account-title {
-    background-image: url(images/create-account-title.png);
+    /*background-image: url(images/create-account-title.png);*/
 }
 
 .social-login-title .forgot-pass-title {
-    background-image: url(images/forgot-pass-title.png);
+    /*background-image: url(images/forgot-pass-title.png);*/
 }
 
 #social-login-popup .mfp-close {
@@ -115,7 +115,7 @@
     margin: 0;
     min-width: 170px;
     text-align: left;
-    border-radius: 5px;
+    border-radius: 0;
 }
 .social-login-authentication-channel .actions-toolbar.social-btn > .primary .action:hover{
     opacity: 0.9;
