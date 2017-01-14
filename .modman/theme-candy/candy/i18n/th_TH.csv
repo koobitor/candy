@@ -1230,12 +1230,12 @@ Role,Role
 "Buy %1 for: ","Buy %1 for: "
 "Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>"
 "Buy %1 for %2 each","Buy %1 for %2 each"
-"Compare Products","Compare Products"
+"Compare Products","เปรียบเทียบสินค้า"
 "Print This Page","Print This Page"
 "Remove Product","Remove Product"
 "Add to Cart","Add to Cart"
 "Add to Wish List","Add to Wish List"
-"You have no items to compare.","You have no items to compare."
+"You have no items to compare.","ยังไม่มีสินค้าเพื่อเปรียบเทียบ"
 Compare,Compare
 Prev,Prev
 "We can't find products matching the selection.","We can't find products matching the selection."
@@ -1354,7 +1354,7 @@ Promo,Promo
 Results,Results
 "Search Weight","Search Weight"
 Relevance,Relevance
-"Search results for: '%1'","Search results for: '%1'"
+"Search results for: '%1'","ผลการค้นหาคำว่า '%1'"
 "Minimum Search query length is %1","Minimum Search query length is %1"
 "Please specify at least one search term.","Please specify at least one search term."
 "%1 and greater","%1 and greater"
@@ -1368,7 +1368,7 @@ Relevance,Relevance
 "We can't find any items matching these search criteria.","We can't find any items matching these search criteria."
 "Modify your search.","Modify your search."
 "Don't see what you're looking for?","Don't see what you're looking for?"
-"Your search returned no results.","Your search returned no results."
+"Your search returned no results.","ยังไม่พบสินค้าที่คุณค้นหา"
 "Create Permanent Redirect for old URL","Create Permanent Redirect for old URL"
 "Please choose a condition to add.","Please choose a condition to add."
 "Shopping Cart","Shopping Cart"
@@ -1441,7 +1441,7 @@ Item,Item
 "Edit item parameters","Edit item parameters"
 "Remove item","Remove item"
 "You have no items in your shopping cart.","ยังไม่มีสินค้าในตะกร้าของคุณ"
-"Click <a href=""%1"">here</a> to continue shopping.","Click <a href=""%1"">here</a> to continue shopping."
+"Click <a href=""%1"">here</a> to continue shopping.","<a href=""%1"">ช้อปต่อ</a>"
 "Estimate Tax","Estimate Tax"
 "Estimate Shipping and Tax","Estimate Shipping and Tax"
 "Excl. Tax","Excl. Tax"
@@ -1760,7 +1760,7 @@ region,region
 "Please select","Please select"
 Configure,Configure
 "Shopping Cart from %1","Shopping Cart from %1"
-Newsletter,Newsletter
+Newsletter,"สมัครรับข่าวสาร"
 "Newsletter Information","Newsletter Information"
 "Subscribed to Newsletter","Subscribed to Newsletter"
 "Last Date Subscribed","Last Date Subscribed"
@@ -2842,8 +2842,8 @@ Cancelled,Cancelled
 "Please enter a new template name.","Please enter a new template name."
 " Copy"," Copy"
 "Sign Up for Our Newsletter:","Sign Up for Our Newsletter:"
-"Enter your email address","Enter your email address"
-Subscribe,Subscribe
+"Enter your email address","กรุณากรอกอีเมลของคุณ"
+Subscribe,"รับข่าวสาร"
 "Make Check payable to:","Make Check payable to:"
 "Send Check to:","Send Check to:"
 "Purchase Order Number","Purchase Order Number"
@@ -5015,7 +5015,7 @@ description,description
 Container,Container
 "Specific %1","Specific %1"
 "Wish List Sharing","Wish List Sharing"
-"My Wish List","My Wish List"
+"My Wish List","สินค้าโปรด"
 "%1's Wish List","%1's Wish List"
 "We can't specify a product.","We can't specify a product."
 "We can't add the item to Wish List right now: %1.","We can't add the item to Wish List right now: %1."
@@ -5070,7 +5070,7 @@ error-message,error-message
 "Check here to link an RSS feed to your Wish List.","Check here to link an RSS feed to your Wish List."
 "Last Added Items","Last Added Items"
 "Go to Wish List","Go to Wish List"
-"You have no items in your wish list.","You have no items in your wish list."
+"You have no items in your wish list.","ยังไม่มีสินค้าโปรด"
 "Resource with ID ""%1"" not found.","Resource with ID ""%1"" not found."
 "Generic service exception %1","Generic service exception %1"
 "Consumer is not authorized to access %1","Consumer is not authorized to access %1"
@@ -7472,3 +7472,4 @@ Two,Two
 "Phrase 2","Phrase 2"
 "Phrase 3","Phrase 3"
 "or","•"
+"Newsletter","สมัครรับข่าวสาร"
