@@ -55,14 +55,14 @@
 
 .social-login-title h2 {
     margin: 0;
-    padding-left: 40px;
+    padding-left: 15px;
     background-position: 12px center;
     background-repeat: no-repeat;
     color: #ffffff;
 }
 
 .social-login-title .login-title {
-    background-image: url(images/login-title.png);
+    /*background-image: url(images/login-title.png);*/
 }
 
 .social-login-title .create-account-title {
