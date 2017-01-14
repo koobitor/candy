@@ -17,6 +17,7 @@ php bin/magento setup:static-content:deploy -t Magento/candy -l th_TH
 ```
 php bin/magento indexer:reindex
 php bin/magento cache:clean
+php bin/magento cache:clean translate
 ```
 
 ## Development
