@@ -26,6 +26,7 @@ bin/magento deploy:mode:show
 php bin/magento deploy:mode:set default
 php bin/magento deploy:mode:set developer
 php bin/magento deploy:mode:set production
+php bin/magento maintenance:disable
 ```
 
 # LESS Compile
