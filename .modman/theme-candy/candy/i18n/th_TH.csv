@@ -18,7 +18,7 @@ Enabled,Enabled
 "Meta Robots","Meta Robots"
 Category,Category
 ID,ID
-Position,Position
+Position,ตำแหน่ง
 Posts,Posts
 "Category Data","Category Data"
 "Category information","Category information"
@@ -211,8 +211,8 @@ Previous,Previous
 Remove,Remove
 "Remove This Item","Remove This Item"
 "Shop By","Shop By"
-"Clear All","Clear All"
-"Shopping Options","Shopping Options"
+"Clear All","ล้างทั้งหมด"
+"Shopping Options","ตัวเลือก"
 "Read Details","Read Details"
 "Mark as Read","Mark as Read"
 "Are you sure?","Are you sure?"
@@ -327,7 +327,7 @@ Quantity,Quantity
 Views,Views
 Revenue,Revenue
 Tax,Tax
-Shipping,Shipping
+Shipping,"การจัดส่ง"
 "Images (.gif, .jpg, .png)","Images (.gif, .jpg, .png)"
 "Media (.avi, .flv, .swf)","Media (.avi, .flv, .swf)"
 "All Files","All Files"
@@ -400,7 +400,7 @@ No,No
 "Default Store View","Default Store View"
 "Store View Information","Store View Information"
 Code,Code
-Status,Status
+Status,"สถานะ"
 Disabled,Disabled
 "Sort Order","Sort Order"
 "Web Site Information","Web Site Information"
@@ -568,7 +568,7 @@ selected,selected
 "of %1","of %1"
 "Next page","Next page"
 "Export to:","Export to:"
-Actions,Actions
+Actions,"ดำเนินการ"
 "Mass Actions","Mass Actions"
 "Unselect All","Unselect All"
 "Select Visible","Select Visible"
@@ -717,11 +717,11 @@ Quantity:,Quantity:
 "Choose a selection...","Choose a selection..."
 "Ship Bundle Items","Ship Bundle Items"
 "There are no products in this option.","There are no products in this option."
-Ordered,Ordered
-Invoiced,Invoiced
-Shipped,Shipped
-Refunded,Refunded
-Canceled,Canceled
+Ordered,"จำนวน"
+Invoiced,"ชำระเงินแล้ว"
+Shipped,"จัดส่งแล้ว"
+Refunded,"คืนเงินแล้ว"
+Canceled,"ยกเลิก"
 "As low as","As low as"
 "Regular Price","Regular Price"
 "Buy %1 with %2 discount each","Buy %1 with %2 discount each"
@@ -950,12 +950,12 @@ Products,Products
 "This attribute set no longer exists.","This attribute set no longer exists."
 "You saved the attribute set.","You saved the attribute set."
 "Something went wrong while saving the attribute set.","Something went wrong while saving the attribute set."
-"You added product %1 to the comparison list.","You added product %1 to the comparison list."
-"You cleared the comparison list.","You cleared the comparison list."
+"You added product %1 to the comparison list.","คุณเพิ่ม %1 ไปเปรียบเทียบสินค้า"
+"You cleared the comparison list.","ล้างการเปรียบเทียบสินค้าแล้ว"
 "Something went wrong  clearing the comparison list.","Something went wrong  clearing the comparison list."
 "You removed product %1 from the comparison list.","You removed product %1 from the comparison list."
-"1 item","1 item"
-"%1 items","%1 items"
+"1 item","1 สินค้า"
+"%1 items","%1 สินค้า"
 "Invalid attribute %1","Invalid attribute %1"
 Grid,Grid
 List,List
@@ -1020,7 +1020,7 @@ Center,Center
 "%1 doesn't extends \Magento\Catalog\Model\Layer\Filter\AbstractFilter","%1 doesn't extends \Magento\Catalog\Model\Layer\Filter\AbstractFilter"
 "The filter must be an object. Please set the correct filter.","The filter must be an object. Please set the correct filter."
 "Clear Price","Clear Price"
-"%1 and above","%1 and above"
+"%1 and above","%1 ขึ้นไป"
 "The filters must be an array.","The filters must be an array."
 "Product was not registered","Product was not registered"
 "Store was not registered","Store was not registered"
@@ -1204,7 +1204,7 @@ Backorders,Backorders
 "%1 <span>x</span> %2 <span>px.</span>","%1 <span>x</span> %2 <span>px.</span>"
 "Sort Custom Option","Sort Custom Option"
 "Item Price","Item Price"
-Action,Action
+Action,"ดำเนินการ"
 "and above","and above"
 "Delete Tier","Delete Tier"
 "Product In Websites","Product In Websites"
@@ -1229,15 +1229,15 @@ Role,Role
 "Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>"
 "Buy %1 for %2 each","Buy %1 for %2 each"
 "Compare Products","เปรียบเทียบสินค้า"
-"Print This Page","Print This Page"
+"Print This Page","พิมพ์หน้านี้"
 "Remove Product","Remove Product"
 "Add to Cart","ซื้อเลย"
 "Add to Wish List","เพิ่มสินค้าโปรด"
 "You have no items to compare.","ยังไม่มีสินค้าเพื่อเปรียบเทียบ"
-Compare,Compare
+Compare,"Compare"
 Prev,Prev
-"We can't find products matching the selection.","We can't find products matching the selection."
-"Learn More","Learn More"
+"We can't find products matching the selection.","ไม่พบสินค้าที่ตรงกับหมวดนี้"
+"Learn More","ดูรายละเอียดเพิ่มเติม"
 "Add to Compare","เปรียบเทียบสินค้า"
 "We found other products you might like!","We found other products you might like!"
 "More Choices:","More Choices:"
@@ -1247,7 +1247,7 @@ Prev,Prev
 "%1 Item","%1 Item"
 "%1 Items","%1 Items"
 Show,Show
-"Sort By","Sort By"
+"Sort By","ค้นหาโดย"
 "Set Ascending Direction","Set Ascending Direction"
 "Set Descending Direction","Set Descending Direction"
 "View as","View as"
@@ -1374,7 +1374,7 @@ Relevance,Relevance
 "My Cart (1 item)","My Cart (1 item)"
 "My Cart (%1 items)","My Cart (%1 items)"
 "My Cart","My Cart"
-"For delivery questions.","For delivery questions."
+"For delivery questions.","สำหรับผู้จัดส่ง"
 "Customer is already registered","Customer is already registered"
 "Your session has expired","Your session has expired"
 "A letter with further instructions will be sent to your email.","A letter with further instructions will be sent to your email."
@@ -1443,12 +1443,12 @@ Item,"สินค้า"
 "Estimate Tax","Estimate Tax"
 "Estimate Shipping and Tax","คำนวณค่าจัดส่งและภาษี"
 "Excl. Tax","Excl. Tax"
-"Order #","Order #"
+"Order #","หมายเลขการสั่งซื้อ #"
 "Proceed to Checkout","ไปหน้าชำระเงิน"
 "Incl. Tax","Incl. Tax"
-"Your order number is: %1.","Your order number is: %1."
+"Your order number is: %1.","หมายเลขการสั่งซื้อของคุณคือ %1."
 "Your order # is: <span>%1</span>.","Your order # is: <span>%1</span>."
-"We'll email you an order confirmation with details and tracking info.","We'll email you an order confirmation with details and tracking info."
+"We'll email you an order confirmation with details and tracking info.","ทีมงานจะดำเนินการจัดส่งอีเมลยืนยันและรหัสการจัดส่งไปให้คุณ"
 "Terms and Conditions","Terms and Conditions"
 "Add New Condition","Add New Condition"
 "Save Condition","Save Condition"
@@ -1907,8 +1907,8 @@ Download,Download
 """%1"" is a required value.","""%1"" is a required value."
 "Per Website","Per Website"
 "We can't share customer accounts globally when the accounts share identical email addresses on more than one website.","We can't share customer accounts globally when the accounts share identical email addresses on more than one website."
-"Billing Address","Billing Address"
-"Shipping Address","Shipping Address"
+"Billing Address","ที่อยู่ออกใบเสร็จ"
+"Shipping Address","ที่อยู่จัดส่ง"
 "Please enter a valid password reset token.","Please enter a valid password reset token."
 "The password can not begin or end with a space.","The password can not begin or end with a space."
 Admin,Admin
@@ -1999,7 +1999,7 @@ Visitor,Visitor
 "Contact Information","ข้อมูลการติดต่อ"
 "Change Password","เปลี่ยนรหัสผ่าน"
 Newsletters,"ข่าวสารสมาชิก"
-"You subscribe to ""General Subscription"".","คุณรับ ""ข่าวสารสมาชิก""."
+"You subscribe to ""General Subscription"".","คุณรับ ""ข่าวสารสมาชิก"""
 "Default Addresses","ที่อยู่หลัก"
 "Change Billing Address","เปลี่ยนที่อยู่ออกใบเสร็จ"
 "You have no default billing address in your address book.","You have no default billing address in your address book."
@@ -2170,7 +2170,7 @@ Unlimited,Unlimited
 URL,URL
 attachment,attachment
 inline,inline
-Pending,Pending
+Pending,"รอดำเนินการ"
 "To enable the option set the weight to no","To enable the option set the weight to no"
 "Is this downloadable Product?","Is this downloadable Product?"
 Links,Links
@@ -2191,9 +2191,9 @@ U,U
 "Unselect all","Unselect all"
 "Go to <a href=""%1"">My Downloadable Products</a>","Go to <a href=""%1"">My Downloadable Products</a>"
 "Downloadable Products","Downloadable Products"
-Date,Date
+Date,"วันที่"
 "Remaining Downloads","Remaining Downloads"
-"View Order","View Order"
+"View Order","ดูรายละเอียด"
 "Start Download","Start Download"
 "You have not purchased any downloadable products yet.","คุณยังไม่ได้ซื้อสินค้าที่สามารถดาวโหลดได้"
 download,download
@@ -2556,7 +2556,7 @@ Replace,Replace
 "Update on Save","Update on Save"
 "Reindex required","Reindex required"
 Ready,Ready
-Processing,Processing
+Processing,"กำลังดำเนินการ"
 "%1 index is locked by another reindex process. Skipping.","%1 index is locked by another reindex process. Skipping."
 "Index Management","Index Management"
 "Please select indexers.","Please select indexers."
@@ -2706,9 +2706,9 @@ Synchronizing...,Synchronizing...
 "Billing Information - %1","Billing Information - %1"
 "Review Order - %1","Review Order - %1"
 "Total for this address","Total for this address"
-"Shipping Methods","Shipping Methods"
-"Edit Billing Address","Edit Billing Address"
-"Edit Shipping Address","Edit Shipping Address"
+"Shipping Methods","วิธีการจัดส่ง"
+"Edit Billing Address","แก้ไขที่อยู่ออกใบเสร็จ"
+"Edit Shipping Address","แก้ไขที่อยู่จัดส่ง"
 "Create Billing Address","Create Billing Address"
 "Create Shipping Address","Create Shipping Address"
 "Data saving problem","Data saving problem"
@@ -2728,7 +2728,7 @@ Synchronizing...,Synchronizing...
 "Select Addresses","Select Addresses"
 "Shipping Information","Shipping Information"
 "Billing Information","Billing Information"
-"Place Order","Place Order"
+"Place Order","สั่งซื้อ"
 "Order Success","Order Success"
 "Default Billing","Default Billing"
 "Default Shipping","Default Shipping"
@@ -2742,7 +2742,7 @@ Synchronizing...,Synchronizing...
 "Update Qty &amp; Addresses","Update Qty &amp; Addresses"
 "Enter a New Address","Enter a New Address"
 "Back to Shopping Cart","Back to Shopping Cart"
-"Payment Method","Payment Method"
+"Payment Method","วิธีการชำระเงิน"
 "Go to Review Your Order","Go to Review Your Order"
 "Back to Shipping Information","Back to Shipping Information"
 "Other items in your order","Other items in your order"
@@ -2751,7 +2751,7 @@ Synchronizing...,Synchronizing...
 "Check Out with Multiple Addresses","เช็คเอาท์หลายที่อยู่"
 "Address %1 <span>of %2</span>","Address %1 <span>of %2</span>"
 "Shipping To","Shipping To"
-"Shipping Method","Shipping Method"
+"Shipping Method","วิธีการจัดส่ง"
 "Order Review","Order Review"
 "Grand Total:","Grand Total:"
 "Submitting order information...","Submitting order information..."
@@ -3238,8 +3238,8 @@ here,here
 Status:,Status:
 Created:,Created:
 Updated:,Updated:
-"Payment Method:","Payment Method:"
-"Ship To","Ship To"
+"Payment Method:","วิธีการชำระเงิน"
+"Ship To","จัดส่งไปยัง"
 "Order Status","Order Status"
 "Back to Billing Agreements","Back to Billing Agreements"
 "There are no billing agreements yet.","คุณยังไม่มีเงื่อนไขการชำระเงิน"
@@ -3314,7 +3314,7 @@ Duration:,Duration:
 "The address total model should be extended from
                     \Magento\Quote\Model\Quote\Address\Total\AbstractTotal.","The address total model should be extended from
                     \Magento\Quote\Model\Quote\Address\Total\AbstractTotal."
-"Grand Total","Grand Total"
+"Grand Total","รวมทั้งหมด"
 "Shipping & Handling (%1)","Shipping & Handling (%1)"
 "Shipping & Handling","Shipping & Handling"
 "We found an invalid item option format.","We found an invalid item option format."
@@ -3615,7 +3615,7 @@ Billing,Billing
 "Create New Order in %1","Create New Order in %1"
 "Create New Order for %1","Create New Order for %1"
 "Create New Order for New Customer","Create New Order for New Customer"
-"Items Ordered","Items Ordered"
+"Items Ordered","รายการสินค้า"
 "This product is disabled.","This product is disabled."
 "Buy %1 for price %2","Buy %1 for price %2"
 "Item ordered qty","Item ordered qty"
@@ -3703,7 +3703,7 @@ unhold,unhold
 "Invoice and Ship","Invoice and Ship"
 Invoice,Invoice
 Ship,Ship
-Reorder,Reorder
+Reorder,"สั่งซื้ออีกครั้ง"
 "Order # %1 %2 | %3","Order # %1 %2 | %3"
 "This order contains (%1) items and therefore cannot be edited through the admin interface. If you wish to continue editing, the (%2) items will be removed,  the order will be canceled and a new order will be placed.","This order contains (%1) items and therefore cannot be edited through the admin interface. If you wish to continue editing, the (%2) items will be removed,  the order will be canceled and a new order will be placed."
 "Are you sure? This order will be canceled and a new one will be created instead.","Are you sure? This order will be canceled and a new one will be created instead."
@@ -3719,7 +3719,7 @@ Reorder,Reorder
 "Comments History","Comments History"
 "Order History","Order History"
 Information,Information
-"Order Information","Order Information"
+"Order Information","ข้อมูลการสั่งซื้อ"
 "Order Invoices","Order Invoices"
 Shipments,Shipments
 "Order Shipments","Order Shipments"
@@ -3735,14 +3735,14 @@ Fetch,Fetch
 Key,Key
 Value,Value
 "We found an invalid entity model.","We found an invalid entity model."
-"Order # %1","Order # %1"
+"Order # %1","รายการสั่งซื้อ # %1"
 "Back to My Orders","Back to My Orders"
 "View Another Order","View Another Order"
 "About Your Refund","About Your Refund"
 "My Orders","รายการสั่งซื้อของคุณ"
 "Subscribe to Order Status","Subscribe to Order Status"
 "About Your Invoice","About Your Invoice"
-"Print Order # %1","Print Order # %1"
+"Print Order # %1","พิมพ์ # %1"
 "Grand Total to be Charged","Grand Total to be Charged"
 Unassign,Unassign
 "You sent the message.","You sent the message."
@@ -3912,8 +3912,8 @@ Mixed,Mixed
 "Order # ","Order # "
 "Order Date: ","Order Date: "
 "Sold to:","Sold to:"
-"Ship to:","Ship to:"
-"Shipping Method:","Shipping Method:"
+"Ship to:","จัดส่งไปยัง"
+"Shipping Method:","วิธีการจัดส่ง"
 "Total Shipping Charges","Total Shipping Charges"
 Number,Number
 "We found an invalid renderer model.","We found an invalid renderer model."
@@ -3974,8 +3974,8 @@ Number,Number
 "VAT Request Date","VAT Request Date"
 "Pending Payment","Pending Payment"
 "On Hold","On Hold"
-Complete,Complete
-Closed,Closed
+Complete,"จัดส่งแล้ว"
+Closed,"ปิด"
 "Suspected Fraud","Suspected Fraud"
 "Payment Review","Payment Review"
 New,New
@@ -4002,7 +4002,7 @@ Notified,Notified
 "Order Currency:","Order Currency:"
 "Same As Billing Address","Same As Billing Address"
 "Select from existing customer addresses:","Select from existing customer addresses:"
-"Save in address book","Save in address book"
+"Save in address book","บันทึกในที่อยู่"
 "You don't need to select a shipping address.","You don't need to select a shipping address."
 "Gift Message for the Entire Order","Gift Message for the Entire Order"
 "Row Subtotal","Row Subtotal"
@@ -4046,7 +4046,7 @@ Subtotal:,Subtotal:
 "Credit Memo Totals","Credit Memo Totals"
 "Customer Name: %1","Customer Name: %1"
 "Purchased From: %1","Purchased From: %1"
-"Shipping &amp; Handling","Shipping &amp; Handling"
+"Shipping &amp; Handling","ค่าจัดส่ง"
 "Create Shipment","Create Shipment"
 "Invoice and shipment types do not match for some items on this order. You can create a shipment only after creating the invoice.","Invoice and shipment types do not match for some items on this order. You can create a shipment only after creating the invoice."
 "Qty to Invoice","Qty to Invoice"
@@ -4096,7 +4096,7 @@ Comment,"คอมเม้นท์"
 "Print Refund","Print Refund"
 "You have placed no orders.","คุณยังไม่มีรายการสั่งซื้อ"
 "No shipping information available","No shipping information available"
-"Print Order","Print Order"
+"Print Order","พิมพ์"
 "Print All Invoices","Print All Invoices"
 "Invoice #","Invoice #"
 "Print Invoice","Print Invoice"
@@ -4104,9 +4104,9 @@ Comment,"คอมเม้นท์"
 "<span class=""label"">Order Date:</span> %1","<span class=""label"">Order Date:</span> %1"
 "Refund #%1","Refund #%1"
 "Shipment #%1","Shipment #%1"
-"Recent Orders","Recent Orders"
+"Recent Orders","รายการสั่งซื้อล่าสุด"
 "Gift Message for This Order","Gift Message for This Order"
-"Recently Ordered","Recently Ordered"
+"Recently Ordered","สินค้าที่พึ่งซื้อไป"
 "The ""%1"" product is not part of the current creditmemo.","The ""%1"" product is not part of the current creditmemo."
 "The return to stock argument contains product item that is not part of the original order.","The return to stock argument contains product item that is not part of the original order."
 "Cart Price Rules","Cart Price Rules"
@@ -5447,7 +5447,7 @@ Total:,Total:
 "Shipping Address:","Shipping Address:"
 "Date & Time:","Date & Time:"
 "Email Address","Email Address"
-"My billing and shipping address are the same","My billing and shipping address are the same"
+"My billing and shipping address are the same","ที่อยู่จัดส่งและออกใบเสร็จใช้ที่อยู่เดียวกัน"
 Update,อัพเดท
 "Estimated Total","Estimated Total"
 "You can create an account after checkout.","You can create an account after checkout."
@@ -5463,13 +5463,13 @@ Update,อัพเดท
 "Ship Here","Ship Here"
 "Ship To:","Ship To:"
 edit,"แก้ไข"
-"New Address","New Address"
+"New Address","เพิ่มที่อยู่"
 "Select Method","Select Method"
 "Method Title","Method Title"
 "Carrier Title","Carrier Title"
 "Sorry, no quotes are available for this order at this time","Sorry, no quotes are available for this order at this time"
 "Order Summary","Order Summary"
-"Item in Cart","Item in Cart"
+"Item in Cart","สินค้นในตระกร้า"
 "View Details","View Details"
 "Contact Form","Contact Form"
 "Name: %name","Name: %name"
@@ -5575,12 +5575,12 @@ YY,YY
 "Please add rows to option.","Please add rows to option."
 "Choose existing category.","Choose existing category."
 "Image Detail","Image Detail"
-Adding...,Adding...
+Adding...,"เพิ่ม..."
 "unselect all","unselect all"
 "Provided Zip/Postal Code seems to be invalid.","Provided Zip/Postal Code seems to be invalid."
 " Example: "," Example: "
 "If you believe it is the right one you can ignore this notice.","If you believe it is the right one you can ignore this notice."
-"Review & Payments","Review & Payments"
+"Review & Payments","รีวิวและชำระเงิน"
 "Select a new payment method","Select a new payment method"
 "New Product Review","New Product Review"
 "Here are the products you're about to create.","Here are the products you're about to create."
@@ -6622,7 +6622,7 @@ Subscribed,Subscribed
 Unsubscribed,Unsubscribed
 Unconfirmed,Unconfirmed
 "Newsletter Subscriptions","ข่าวสารสมาชิก"
-"Check / Money Order","Check / Money Order"
+"Check / Money Order","โอนเงิน"
 "Make Check Payable to","Make Check Payable to"
 "Purchase Order","Purchase Order"
 "Bank Transfer Payment","Bank Transfer Payment"
@@ -7480,3 +7480,4 @@ Two,Two
 "Reviews","รีวิว"
 "Update","อัพเดท"
 "Summary","สรุปยอด"
+"Track All Shipments","ติดตามการจัดส่งทั้งหมด"
