@@ -10,7 +10,8 @@ php bin/magento setup:static-content:deploy
 php bin/magento setup:static-content:deploy -l en_US
 php bin/magento setup:static-content:deploy -l th_TH
 php bin/magento setup:static-content:deploy -t Magento/blank -l th_TH
-php bin/magento setup:static-content:deploy -t Magento/candy -l th_TH
+php bin/magento setup:static-content:deploy -t Magento/candy -l th_TH --no-css
+php bin/magento dev:source-theme:deploy
 ```
 
 ## Routine Command
@@ -18,11 +19,14 @@ php bin/magento setup:static-content:deploy -t Magento/candy -l th_TH
 php bin/magento indexer:reindex
 php bin/magento cache:clean
 php bin/magento cache:clean translate
+php bin/magento cache:disable
+php bin/magento cache:enable
+php bin/magento cache:flush
 ```
 
 ## Development
 ```
-bin/magento deploy:mode:show
+php bin/magento deploy:mode:show
 php bin/magento deploy:mode:set default
 php bin/magento deploy:mode:set developer
 php bin/magento deploy:mode:set production
