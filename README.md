@@ -6,6 +6,7 @@ docker run -tid -p 8000:80 --privileged -e "container=docker" -v /sys/fs/cgroup:
 ## Command to install extension
 ```
 php bin/magento setup:upgrade
+php bin/magento setup:di:compile
 php bin/magento setup:static-content:deploy
 php bin/magento setup:static-content:deploy -l en_US
 php bin/magento setup:static-content:deploy -l th_TH
