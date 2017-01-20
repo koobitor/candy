@@ -3,6 +3,15 @@
 docker run -tid -p 8000:80 --privileged -e "container=docker" -v /sys/fs/cgroup:/sys/fs/cgroup -v /Users/koobitor/Projects/candy-web:/usr/share/nginx/html --name centos koobitor/centos7:nginx /usr/sbin/init
 ```
 
+## LESS Compile & Watch
+```
+grunt clean
+php bin/magento setup:di:compile
+grunt -vvv exec:candy
+grunt less:candy
+grunt watch
+```
+
 ## Command to install extension
 ```
 php bin/magento setup:upgrade
