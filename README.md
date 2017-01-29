@@ -74,3 +74,25 @@ php bin/magento i18n:pack en_US th_TH
 php bin/magento setup:static-content:deploy -t Magento/candy -l th_TH
 grunt less:candy
 ```
+
+## Custom Layout
+```
+```
+<block class="Magento\Cms\Block\Block" name="main_menu_en">
+    <arguments>
+            <argument name="block_id" xsi:type="string">main_menu_en</argument>
+    </arguments>
+</block>
+<block class="Magento\Cms\Block\Block" name="main_menu_th">
+    <arguments>
+            <argument name="block_id" xsi:type="string">main_menu_th</argument>
+    </arguments>
+</block>
+
+<referenceBlock name="catalog.compare.sidebar" remove="true"/>
+<referenceBlock name="view.addto.compare" remove="true" />
+<referenceBlock name="view.addto.wishlist" remove="true" />
+<referenceBlock name="wishlist_sidebar" remove="true" />
+<referenceBlock name="store.menu" remove="true" />
+```
+```
