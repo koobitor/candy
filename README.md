@@ -77,7 +77,6 @@ grunt less:candy
 
 ## Custom Layout
 ```
-```
 <block class="Magento\Cms\Block\Block" name="main_menu_en">
     <arguments>
             <argument name="block_id" xsi:type="string">main_menu_en</argument>
@@ -94,5 +93,4 @@ grunt less:candy
 <referenceBlock name="view.addto.wishlist" remove="true" />
 <referenceBlock name="wishlist_sidebar" remove="true" />
 <referenceBlock name="store.menu" remove="true" />
-```
 ```
