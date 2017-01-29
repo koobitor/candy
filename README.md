@@ -77,6 +77,35 @@ grunt less:candy
 
 ## Custom Layout
 ```
+layout="1column"
+layout="2columns-left"
+layout="2columns-right"
+layout="3columns"
+
+<referenceBlock name="top.links"></referenceBlock>
+<referenceBlock name="head.components"></referenceBlock>
+<referenceBlock name="head.additional"></referenceBlock>
+<referenceBlock name="page.main.title"></referenceBlock>
+<referenceBlock name="footer_links"></referenceBlock>
+
+<referenceContainer name="after.body.start"></referenceContainer>
+<referenceContainer name="content"></referenceContainer>
+<referenceContainer name="content.aside"></referenceContainer>
+<referenceContainer name="columns"></referenceContainer>
+<referenceContainer name="columns.top"></referenceContainer>
+<referenceContainer name="sidebar.main"></referenceContainer>
+<referenceContainer name="footer"></referenceContainer>
+
+# sidebar_main, #sidebar_additional
+
+<!-- social_links -->
+<block class="Magento\Cms\Block\Block" name="social_links">
+    <arguments>
+            <argument name="block_id" xsi:type="string">social_links</argument>
+    </arguments>
+</block>
+
+<!-- main_menu -->
 <block class="Magento\Cms\Block\Block" name="main_menu_en">
     <arguments>
             <argument name="block_id" xsi:type="string">main_menu_en</argument>
@@ -93,4 +122,5 @@ grunt less:candy
 <referenceBlock name="view.addto.wishlist" remove="true" />
 <referenceBlock name="wishlist_sidebar" remove="true" />
 <referenceBlock name="store.menu" remove="true" />
+<referenceBlock name="footer_links" remove="true"/>
 ```
