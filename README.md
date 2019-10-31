@@ -32,6 +32,7 @@ php bin/magento cache:clean translate
 php bin/magento cache:disable
 php bin/magento cache:enable
 php bin/magento cache:flush
+php bin/magento catalog:image:resize
 ```
 
 ## Development
