@@ -18,6 +18,9 @@ php -dmemory_limit=5G bin/magento setup:upgrade
 php -dmemory_limit=5G bin/magento setup:di:compile
 php -dmemory_limit=5G bin/magento setup:static-content:deploy
 chown -Rf www-data:www-data *
+
+php -dmemory_limit=5G bin/magento cron:install
+php -dmemory_limit=5G bin/magento cron:run
 ```
 
 ## Command to install extension
