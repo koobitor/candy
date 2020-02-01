@@ -12,6 +12,14 @@ grunt less:candy
 grunt watch
 ```
 
+### CMD
+```
+php -dmemory_limit=5G bin/magento setup:upgrade
+php -dmemory_limit=5G bin/magento setup:di:compile
+php -dmemory_limit=5G bin/magento setup:static-content:deploy
+chown -Rf www-data:www-data *
+```
+
 ## Command to install extension
 ```
 php bin/magento setup:upgrade
