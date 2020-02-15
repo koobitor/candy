@@ -23,6 +23,7 @@ php -dmemory_limit=5G bin/magento cron:install
 php -dmemory_limit=5G bin/magento cron:run
 php -dmemory_limit=5G bin/magento cron:run --group index
 php -dmemory_limit=5G bin/magento cron:run --group default
+grep -r "Report ID: webapi-5e47f4e996cbd" var/
 ```
 
 ## Command to install extension
