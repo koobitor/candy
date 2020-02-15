@@ -21,6 +21,8 @@ chown -Rf www-data:www-data *
 
 php -dmemory_limit=5G bin/magento cron:install
 php -dmemory_limit=5G bin/magento cron:run
+php -dmemory_limit=5G bin/magento cron:run --group index
+php -dmemory_limit=5G bin/magento cron:run --group default
 ```
 
 ## Command to install extension
